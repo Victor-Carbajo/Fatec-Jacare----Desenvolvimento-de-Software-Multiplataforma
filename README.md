@@ -6,14 +6,14 @@ Este repositório é utilizado para armazenar aulas e exercícios referentes ao 
 
 ## :book: Disciplinas
 
-| Disciplina                                    | Link                                                                                                |
-|-----------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Algorítmos e Lógica de Programação            | :computer: [Algorítmos e Lógica de Programação](/aulas/Algorítmos%20e%20Lógica%20de%20Programação/) |
-| Desenvolvimento Web I                         | :computer: [Desenvolvimento Web I](/aulas/Desenvolvimento%20Web%20I/)                               |
-| Design Digital                                | :computer: [Design Digital](/aulas/Design%20Digital/)                                               |
-| Engenharia de Software I                      | :computer: [Engenharia de Software I](/aulas/Engenharia%20de%20Software%20I/)                       |
-| Modelagem de Banco de Dados                   | :computer: [Modelagem de Banco de Dados](/aulas/Modelagem%20de%20Banco%20de%20Dados/)               |
-| Sistemas Operacionais e Redes de Computadores | :computer: [Sistemas Operacionais e Redes de Computadores](/aulas/Sistemas%20Operacionais%20e%20Redes%20de%20Computadores/)                                                                                             |
+| Disciplina                                    | Link                                                                                           |
+|-----------------------------------------------|------------------------------------------------------------------------------------------------|
+| Algorítmos e Lógica de Programação            | :computer: [Acessar Conteúdo](/aulas/Algorítmos%20e%20Lógica%20de%20Programação/)              |
+| Desenvolvimento Web I                         | :computer: [Acessar Conteúdo](/aulas/Desenvolvimento%20Web%20I/)                               |
+| Design Digital                                | :computer: [Acessar Conteúdo](/aulas/Design%20Digital/)                                        |
+| Engenharia de Software I                      | :computer: [Acessar Conteúdo](/aulas/Engenharia%20de%20Software%20I/)                          |
+| Modelagem de Banco de Dados                   | :computer: [Acessar Conteúdo](/aulas/Modelagem%20de%20Banco%20de%20Dados/)                     |
+| Sistemas Operacionais e Redes de Computadores | :computer: [Acessar Conteúdo](/aulas/Sistemas%20Operacionais%20e%20Redes%20de%20Computadores/) |
 
 ## :pencil2: Como Contribuir
 

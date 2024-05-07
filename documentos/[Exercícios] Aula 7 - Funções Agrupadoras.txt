@@ -1,0 +1,65 @@
+--Ex. 0001
+SELECT unidade AS Fatec, COUNT(*) AS Quantidade
+FROM tbcurso
+GROUP BY unidade
+ORDER BY Fatec ASC;
+
+--Ex. 0002
+SELECT unidade AS Fatec, COUNT(*) AS Quantidade
+FROM tbcurso
+GROUP BY unidade
+ORDER BY Quantidade DESC;
+
+--Ex. 0003
+SELECT unidade AS Fatec, COUNT(*) AS Quantidade
+FROM tbcurso
+GROUP BY unidade
+ORDER BY Quantidade DESC
+LIMIT 1;
+
+--Ex. 0004
+SELECT unidade AS Fatec, COUNT(*) AS Quantidade
+FROM tbcurso
+GROUP BY unidade
+ORDER BY Quantidade DESC
+LIMIT 1 OFFSET 1;
+
+--Ex. 0005
+SELECT unidade AS Fatec, COUNT(*) AS Quantidade
+FROM tbcurso
+GROUP BY unidade
+HAVING COUNT(*) = 3
+ORDER BY unidade asc;
+
+--Ex. 0006
+SELECT unidade AS Fatec, turno, COUNT(*) AS Quantidade
+FROM tbcurso
+GROUP BY unidade, turno
+ORDER BY Fatec ASC, turno ASC;
+
+--Ex. 0007
+SELECT unidade AS Fatec, turno, COUNT(*) AS Quantidade
+FROM tbcurso
+GROUP BY unidade, turno
+HAVING COUNT(*) = 5
+ORDER BY Fatec ASC, turno ASC;
+
+--Ex. 0008
+SELECT unidade AS Fatec, turno, COUNT(*) AS Quantidade
+FROM tbcurso
+WHERE municipio = 'São José dos Campos'
+GROUP BY unidade, turno
+ORDER BY Fatec ASC, turno ASC;
+
+--Ex. 0009
+SELECT unidade AS Fatec, turno, SUM(vaga) AS "Quantidade"
+FROM tbcurso
+WHERE municipio = 'São José dos Campos'
+GROUP BY unidade, turno
+ORDER BY unidade ASC, turno ASC;
+
+--Ex. 0010
+SELECT turno, SUM(vaga) AS "Quantidade"
+FROM tbcurso
+GROUP BY turno
+ORDER BY turno ASC;
